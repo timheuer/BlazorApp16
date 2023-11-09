@@ -42,7 +42,7 @@ jobs:
 
     - name: Get Wasm Tools
       run: |
-        dotnet workloads install wasm-tools    
+        dotnet workload install wasm-tools    
 
     - name: Restore
       run: dotnet restore
